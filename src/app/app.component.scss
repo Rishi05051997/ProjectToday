@@ -1,0 +1,32 @@
+h1
+{
+    text-align: center;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+#users{
+    font-family: "Trabuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#users td, #users th {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 8px;
+}
+
+#users tr:nth-child(even){background-color:  #4CAF50;}
+#users th:hover {background-color:grey;}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+
+}
+.fa-sort{
+    color: black;
+}
